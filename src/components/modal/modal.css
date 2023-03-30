@@ -1,0 +1,118 @@
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s linear;
+}
+
+.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%);
+}
+
+
+.modal_content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 40%;
+    padding: 20px;
+    z-index: 9999;
+}
+
+.modal_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.modal_title {
+    width: 100%;
+}
+
+#date {
+    border: none;
+    color: rgb(29, 116, 216);
+}
+
+.modal_close {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.modal_title input {
+    border: none;
+    width: 80%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.modal_body {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.modal_body select,
+.modal_body input[type="text"] {
+    flex: 1 1 100%;
+    font-size: 1em;
+}
+
+.modal_body select,
+.modal_body input {
+    border: 1px solid rgb(197, 197, 197);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.modal_body div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.modal_body label {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.modal_footer {
+    text-align: end;
+
+}
+
+.modal_footer button,
+.modal_footer input {
+    padding: 10px;
+    cursor: pointer;
+    width: 70px;
+    margin-left: 10px;
+    background-color: rgb(29, 116, 216);
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.modal_footer input {
+    background-color: rgb(223, 81, 81);
+}

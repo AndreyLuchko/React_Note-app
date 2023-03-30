@@ -1,0 +1,21 @@
+.total-list-card {
+    width: 100%;
+}
+
+.total-list-card li {
+    width: 30%;
+}
+
+.total-btn {
+  position: absolute;
+  top: 14%;
+  right: 10px;
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.total-list-editable {
+    width: 100%;
+}

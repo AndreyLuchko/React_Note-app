@@ -1,0 +1,22 @@
+.notes_create {
+    text-align: end;
+    margin-top: 10px;
+    
+}
+
+.notes_create-btn {
+    cursor: pointer;
+    padding: 0.3rem;
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.4rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0, .15);
+    border: 1px solid #5b77f3;
+    color: rgb(112, 112, 112);
+    
+}
+
+.notes_create-btn:hover {
+    background-color: #5b77f3;
+    color: #fff;
+    box-sizing: border-box;
+}
